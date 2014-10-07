@@ -1,0 +1,4 @@
+Make a startup.m file in ~/Documents/MATLAB/
+with the contents 'run /PATH/TO/GIT/REPO/startup.m
+
+I did this to get code into Bitbucket Git version control
