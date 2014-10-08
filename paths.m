@@ -35,6 +35,7 @@ pth.calcsws   ='/getlab/dpb6/repos/calcsws';
 pth.colormaps ='/getlab/dpb6/repos/colormaps';
 pth.gpuBF     ='/getlab/dpb6/repos/gpuBF';
 pth.URI       ='/getlab/dpb6/repos/URI';
+pth.fullwave  ='/getlab/dpb6/repos/fullwave';
 
 pth.z          ='/getlab/dpb6/repos/arfi_code/z/';
 pth.antares    ='/getlab/dpb6/repos/arfi_code/antares/trunk';
