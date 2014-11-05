@@ -35,7 +35,7 @@ function [time,data] = daqturntable(varargin)
         params.ScannerPin        = 13;
         params.ttpin             = 6;
         params.Rate              = 2000;
-        params.DurationInSeconds = 17;
+        params.DurationInSeconds = 7;
     else
         % Else there are an even number of pairs
         % Loop through name-value pairs, and set params
@@ -93,8 +93,6 @@ function [time,data] = daqturntable(varargin)
         lh = s.addlistener('DataAvailable',@plotData);
         s.startBackground();
  
-        % TODO: figure out how to use this properly...
-        % Do something
         counter = 0;
         fprintf('%s ','Seconds of acq.:');
         while(~s.IsDone)
