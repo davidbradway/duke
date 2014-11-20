@@ -7,11 +7,11 @@ function [time,data] = daqturntable(varargin)
 %
 % % EXAMPLE CODE:
 % % set params
-% params.background        = 0;    % [1] background, [0] foreground
+% params.background        = 1;    % [1] background, [0] foreground
 % params.debug             = 0;    % [1] print extra info, [0] do not
 % params.plot              = 1;    % [1] plot traces], [0] no not
-% params.ScannerPin        = 13;   % to what pin is scanner connected
-% params.ttpin             = 6;    % to what pin is turntable connected
+% params.ScannerPin        = 6;   % to what pin is scanner connected
+% params.ttpin             = 13;    % to what pin is turntable connected
 % params.Rate              = 2000; % [Hz] sampling rate
 % params.DurationInSeconds = 17;   % [sec] sampling duration
 % [time,data] = daqturntable(params);
@@ -32,10 +32,10 @@ function [time,data] = daqturntable(varargin)
         params.background        = 1;
         params.debug             = 0;
         params.plot              = 1;
-        params.ScannerPin        = 13;
-        params.ttpin             = 6;
-        params.Rate              = 2000;
-        params.DurationInSeconds = 7;
+        params.ScannerPin        = 6;
+        params.ttpin             = 9; %13
+        params.Rate              = 100000;
+        params.DurationInSeconds = 5;
     else
         % Else there are an even number of pairs
         % Loop through name-value pairs, and set params
@@ -68,6 +68,9 @@ function [time,data] = daqturntable(varargin)
     % By default the session is configured for 1000 scans/second. 
     % Change the scan rate to acquire at 8000 scans / second.
     s.Rate = params.Rate;
+
+    %% Set Range
+    %s.Range = params.Rate;
 
     %% Acquire data for a Specified Duration  
     % By default the session runs for a duration of one second. Configure the
