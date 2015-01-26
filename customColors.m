@@ -50,3 +50,8 @@ Editorhighlight-caret-row-boolean-color=C-2167080
 
 open(mfilename)
 disp('paste the theme preferences at the end of matlab.prf')
+
+
+cp ./matlab.rf /home/dpb6/.matlab/R2013b/matlab.prf
+
+
