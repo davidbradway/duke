@@ -35,16 +35,13 @@ pth.code                                          = '/getlab/dpb6/repos/code';
 pth.Field_II                                      = '/getlab/dpb6/repos/Field_II';
 pth.calcsws                                       = '/getlab/dpb6/repos/calcsws';
 pth.colormaps                                     = '/getlab/dpb6/repos/colormaps';
-pth.gpuBF                                         = '/getlab/dpb6/repos/gpuBF';
-pth.URI                                           = '/getlab/dpb6/repos/URI';
+%pth.gpuBF                                         = '/getlab/dpb6/repos/gpuBF';
+%pth.URI                                           = '/getlab/dpb6/repos/URI';
 pth.fullwave                                      = '/getlab/dpb6/repos/fullwave';
 
 pth.z                                             = '/getlab/dpb6/repos/arfi_code/z/';
 pth.antares                                       = '/getlab/dpb6/repos/arfi_code/antares/trunk';
-pth.arfi_image                                    = '/getlab/dpb6/repos/arfi_code/arfi_image/trunk';
-pth.radforce                                      = '/getlab/dpb6/repos/arfi_code/misc/radforce';
-pth.radfrc                                        = '/getlab/dpb6/repos/arfi_code/misc/radfrc';
-pth.sam                                           = '/getlab/dpb6/repos/arfi_code/sam/trunk';
+pth.arfi_image                                    = '/getlab/dpb6/repos/arfi_code/arfi_image/';
 
 pth.messina_Bmode_L12_5                           = '/getlab/dpb6/repos/messina/Bmode/L12_5';
 pth.messina_SyntheticAperture_L12_5               = '/getlab/dpb6/repos/messina/SyntheticAperture/L12_5';
@@ -55,15 +52,15 @@ pth.messina_SyntheticAperture_L12_5_SSequence     = '/getlab/dpb6/repos/messina/
 pth.SC2000_arfiImage                              = '/getlab/dpb6/repos/SC2000/arfiImage';
 pth.SC2000_arfiProcCode                           = '/getlab/dpb6/repos/SC2000/arfiProcCode';
 
-pth.ultratrack                                    = '/getlab/dpb6/repos/ultratrack';
-pth.ultratrack_code                               = '/getlab/dpb6/repos/ultratrack/code';
+%pth.ultratrack                                    = '/getlab/dpb6/repos/ultratrack';
+%pth.ultratrack_code                               = '/getlab/dpb6/repos/ultratrack/code';
 
-pth.mex_mexExample                                = '/getlab/dpb6/repos/mex/mexExample';
-pth.mex_readFile_mex                              = '/getlab/dpb6/repos/mex/readFile_mex';
-pth.mex_scan_convert                              = '/getlab/dpb6/repos/mex/scan_convert';
-pth.mex_slsc_mex                                  = '/getlab/dpb6/repos/mex/slsc_mex';
-pth.mex_slsc_mex1                                 = '/getlab/dpb6/repos/mex/slsc_mex1';
-pth.mex_slsc_mex2                                 = '/getlab/dpb6/repos/mex/slsc_mex2';
+%pth.mex_mexExample                                = '/getlab/dpb6/repos/mex/mexExample';
+%pth.mex_readFile_mex                              = '/getlab/dpb6/repos/mex/readFile_mex';
+%pth.mex_scan_convert                              = '/getlab/dpb6/repos/mex/scan_convert';
+%pth.mex_slsc_mex                                  = '/getlab/dpb6/repos/mex/slsc_mex';
+%pth.mex_slsc_mex1                                 = '/getlab/dpb6/repos/mex/slsc_mex1';
+%pth.mex_slsc_mex2                                 = '/getlab/dpb6/repos/mex/slsc_mex2';
 
 pth.ProcessArfiData                               = '/getlab/dpb6/repos/ProcessArfiData/';
 pth.ProcessArfiData_GFPJJDexecutables             = '/getlab/dpb6/repos/ProcessArfiData/GFPJJDexecutables';
@@ -85,7 +82,7 @@ pth.nickbotbeamforming_interp                     = '/getlab/dpb6/repos/nickbot/
 
 %% DTU
 pth.dtucode                                       = '/getlab/dpb6/repos/dtucode';
-pth.dtucode_bft3_bft3_beta_1_24                   = '/getlab/dpb6/repos/dtucode/bft3/bft3-beta-1-24';
+pth.dtucode_bft3_bft3_beta_1_24                   = '/getlab/dpb6/repos/dtucode/bft3/bft3-beta-1-24/src';
 pth.dtucode_CFUtools                              = '/getlab/dpb6/repos/dtucode/CFUtools';
 pth.dtucode_evaluate_psf                          = '/getlab/dpb6/repos/dtucode/evaluate_psf';
 pth.dtucode_interp                                = '/getlab/dpb6/repos/dtucode/interp';
