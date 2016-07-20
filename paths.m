@@ -16,7 +16,7 @@ function pth = paths( varargin )
 %   2013-2014
 if ~exist('pth', 'var')
     global pth
-    disp('making ''pth'' global')
+    disp('creating ''pth'' as global')
 end
 
 if nargin==1
@@ -32,15 +32,18 @@ end
 pth.data                                          = '/getlab/dpb6';
 pth.home                                          = '/home/dpb6';
 pth.code                                          = '/getlab/dpb6/repos/code';
-pth.Field_II                                      = '/getlab/dpb6/repos/Field_II';
-pth.calcsws                                       = '/getlab/dpb6/repos/calcsws';
-pth.colormaps                                     = '/getlab/dpb6/repos/colormaps';
+pth.Field_II                                      = '/getlab/dpb6/repos/Field_II/m_files';
 %pth.gpuBF                                         = '/getlab/dpb6/repos/gpuBF';
 %pth.URI                                           = '/getlab/dpb6/repos/URI';
 pth.fullwave                                      = '/getlab/dpb6/repos/fullwave';
+pth.field_ii_utils                                = '/getlab/dpb6/repos/field_ii_utils';
+pth.MatlabScripts                                 = '/getlab/dpb6/repos/MatlabScripts';
+
+pth.SC2000_arfiImage                              = '/getlab/dpb6/repos/SC2000/arfiImage';
+pth.SC2000_arfiProcCode                           = '/getlab/dpb6/repos/SC2000/arfiProcCode';
 
 pth.z                                             = '/getlab/dpb6/repos/arfi_code/z/';
-pth.antares                                       = '/getlab/dpb6/repos/arfi_code/antares/trunk';
+%pth.antares                                       = '/getlab/dpb6/repos/arfi_code/antares/trunk';
 pth.arfi_image                                    = '/getlab/dpb6/repos/arfi_code/arfi_image/';
 
 pth.messina_Bmode_L12_5                           = '/getlab/dpb6/repos/messina/Bmode/L12_5';
@@ -48,9 +51,6 @@ pth.messina_SyntheticAperture_L12_5               = '/getlab/dpb6/repos/messina/
 pth.messina_SyntheticAperture_P4_2                = '/getlab/dpb6/repos/messina/SyntheticAperture/P4_2';
 pth.messina_SyntheticAperture_L12_5_SAwithDoppler = '/getlab/dpb6/repos/messina/SyntheticAperture/L12_5/SAwithDoppler';
 pth.messina_SyntheticAperture_L12_5_SSequence     = '/getlab/dpb6/repos/messina/SyntheticAperture/L12_5/SSequence';
-
-pth.SC2000_arfiImage                              = '/getlab/dpb6/repos/SC2000/arfiImage';
-pth.SC2000_arfiProcCode                           = '/getlab/dpb6/repos/SC2000/arfiProcCode';
 
 %pth.ultratrack                                    = '/getlab/dpb6/repos/ultratrack';
 %pth.ultratrack_code                               = '/getlab/dpb6/repos/ultratrack/code';
@@ -67,18 +67,24 @@ pth.ProcessArfiData_GFPJJDexecutables             = '/getlab/dpb6/repos/ProcessA
 pth.ProcessArfiData_routines                      = '/getlab/dpb6/repos/ProcessArfiData/routines';
 pth.ProcessArfiData_uriReader                     = '/getlab/dpb6/repos/ProcessArfiData/uriReader';
 
+pth.fetal_slsc_processing                         = '/getlab/dpb6/repos/Fetal_SLSC/Processing';
+pth.fetal_scan_convert                            = '/getlab/dpb6/repos/GUI_Fetal_SLSC/scan_convert';
+
 pth.probes                                        = '/getlab/dpb6/repos/fem/probes';
 pth.mesh                                          = '/getlab/dpb6/repos/fem/mesh';
 pth.field                                         = '/getlab/dpb6/repos/fem/field';
 pth.post                                          = '/getlab/dpb6/repos/fem/post';
 
-pth.sgetmpdir                                     = '/scratch/dpb6/sgetmp';
+pth.usp                                           = '/getlab/dpb6/repos/usp';
+
 pth.simcode                                       = '/getlab/dpb6/repos/nickbot/simulation/FieldII';
 pth.simcode_phantoms                              = '/getlab/dpb6/repos/nickbot/simulation/FieldII/phantoms';
 pth.simcode_scans_phased                          = '/getlab/dpb6/repos/nickbot/simulation/FieldII/scans/phased';
 pth.nickbotbeamforming                            = '/getlab/dpb6/repos/nickbot/beamforming/';
-pth.nickbotbeamforming_bscan                      = '/getlab/dpb6/repos/nickbot/beamforming/Bscan/';
-pth.nickbotbeamforming_interp                     = '/getlab/dpb6/repos/nickbot/beamforming/interp/';
+
+pth.export_fig                                    ='/getlab/dpb6/repos/export_fig';
+
+
 
 %% DTU
 pth.dtucode                                       = '/getlab/dpb6/repos/dtucode';
@@ -112,5 +118,5 @@ end
 
 %persist the struct of paths to the workspace
 disp('To show custom paths, run:')
-disp('global pth')
+disp('global pth;pth')
 end
