@@ -77,9 +77,6 @@ pth.post                                          = '/getlab/dpb6/repos/fem/post
 
 pth.usp                                           = '/getlab/dpb6/repos/usp';
 
-pth.simcode                                       = '/getlab/dpb6/repos/nickbot/simulation/FieldII';
-pth.simcode_phantoms                              = '/getlab/dpb6/repos/nickbot/simulation/FieldII/phantoms';
-pth.simcode_scans_phased                          = '/getlab/dpb6/repos/nickbot/simulation/FieldII/scans/phased';
 pth.nickbotbeamforming                            = '/getlab/dpb6/repos/nickbot/beamforming/';
 
 pth.export_fig                                    ='/getlab/dpb6/repos/export_fig';
