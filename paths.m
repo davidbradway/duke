@@ -42,6 +42,12 @@ pth.MatlabScripts                                 = '/getlab/dpb6/repos/MatlabSc
 pth.SC2000_arfiImage                              = '/getlab/dpb6/repos/SC2000/arfiImage';
 pth.SC2000_arfiProcCode                           = '/getlab/dpb6/repos/SC2000/arfiProcCode';
 
+pth.ooMat                                         = '/getlab/dpb6/repos/ooMat';
+pth.ooUltrasound                                  = '/getlab/dpb6/repos/ooUltrasound';
+pth.displacement_estimators                       = '/getlab/dpb6/repos/displacement_estimators';
+pth.ooProcTTE                                     = '/getlab/dpb6/repos/ooProcTTE';
+
+
 pth.z                                             = '/getlab/dpb6/repos/arfi_code/z/';
 %pth.antares                                       = '/getlab/dpb6/repos/arfi_code/antares/trunk';
 pth.arfi_image                                    = '/getlab/dpb6/repos/arfi_code/arfi_image/';
@@ -81,7 +87,7 @@ pth.nickbotbeamforming                            = '/getlab/dpb6/repos/nickbot/
 
 pth.export_fig                                    ='/getlab/dpb6/repos/export_fig';
 
-
+pth.smartparfor                                   ='/getlab/dpb6/repos/smartParFor';
 
 %% DTU
 pth.dtucode                                       = '/getlab/dpb6/repos/dtucode';
